@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vintageBack"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/userIdentifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userIdentifier"
+        android:textColor="@color/vintageField"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <Button
+        android:id="@+id/googleBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/googleBtn"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/userIdentifier"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/dialBtn"
+        app:layout_constraintHorizontal_bias="0.33"
+        android:layout_marginTop="18dp"
+        />
+
+    <Button
+        android:id="@+id/dialBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialBtn"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/userIdentifier"
+        app:layout_constraintStart_toEndOf="@id/googleBtn"
+        app:layout_constraintEnd_toStartOf="@id/mailBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:layout_marginTop="18dp"
+
+        />
+
+    <Button
+        android:id="@+id/mailBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mailBtn"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/userIdentifier"
+        app:layout_constraintStart_toEndOf="@id/dialBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.67"
+        android:layout_marginTop="18dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

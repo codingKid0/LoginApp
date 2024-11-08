@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="vintageBack">#1A1A19</color>
+    <color name="vintageField">#F6FCDF</color>
+    <color name="vintagePlaceholder">#80a9a9a9</color>
+    <color name="vintageButton">#31511E</color>
+    <color name="vintageUser">#859F3D</color>
+    <color name="transparent">#00ffffff</color>
+</resources>

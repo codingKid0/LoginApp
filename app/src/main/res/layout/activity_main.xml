@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/vintageBack"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/loginHeaderImage"
+        app:srcCompat="@drawable/login_typography" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/radius"
+        android:backgroundTint="@color/vintageField"
+        android:hint="@string/userNamePlaceholder"
+        android:inputType="text"
+        android:padding="17dp"
+        android:textColor="@color/vintageBack"
+        android:textColorHint="@color/vintagePlaceholder" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/radius"
+        android:backgroundTint="@color/vintageField"
+        android:hint="@string/passwordPlaceholder"
+        android:inputType="textPassword"
+        android:padding="17dp"
+        android:textColor="@color/vintageBack"
+        android:textColorHint="@color/vintagePlaceholder" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordEditText"
+        android:padding="12dp"
+        android:backgroundTint="@color/vintageButton"
+        android:textColor="@color/vintageField"
+        android:text="@string/loginButton" />
+
+    <TextView
+        android:id="@+id/versionName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/versionName"
+        android:textColor="@color/vintageField" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoginApp_P1</string>
+    <string name="userNamePlaceholder">Username</string>
+    <string name="passwordPlaceholder">Password</string>
+    <string name="loginButton">Log in</string>
+    <string name="loginHeaderImage">App header typography image</string>
+    <string name="versionName">v.1.0.0</string>
+    <string name="userIdentifier">Logged in as: <font color="#859F3D">admin</font></string>
+    <string name="googleBtn">Google</string>
+    <string name="dialBtn">Call us</string>
+    <string name="mailBtn">Mail us</string>
+</resources>
